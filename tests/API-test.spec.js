@@ -14,8 +14,7 @@ test.describe('Mocking the Api', () => {
         await landingPage.gotoLandingPage();
         //await page.pause();
         await expect(landingPage.getUser1).toBeVisible();
-        await expect(lan
-            dingPage.getUser2).toBeVisible();
+        await expect(landingPage.getUser2).toBeVisible();
     });
     test('mock fruit API and verify ', async ({ page }) => {
 
